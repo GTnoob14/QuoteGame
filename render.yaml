@@ -15,5 +15,5 @@ services:
 
 databases:
   - name: my-mongo-db
-    databaseType: mongodb
+    type: mongodb
     plan: free
