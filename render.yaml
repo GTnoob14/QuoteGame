@@ -1,5 +1,5 @@
 services:
-  - name: node-web-app
+  - name: quotegame
     type: web
     env: node
     buildCommand: npm install
