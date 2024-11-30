@@ -3,17 +3,5 @@ services:
     type: web
     env: node
     buildCommand: npm install
-    startCommand: npm start
-    plan: free
-    envVars:
-      - key: MONGO_URI
-        fromDatabase:
-          name: my-mongo-db
-          property: connectionString
-      - key: NODE_ENV
-        value: production
-
-databases:
-  - name: my-mongo-db
-    type: mongodb
+    startCommand: npm run start
     plan: free
